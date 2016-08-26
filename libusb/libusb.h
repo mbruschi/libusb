@@ -25,6 +25,7 @@
 #define LIBUSB_H
 
 #ifdef _MSC_VER
+#define HAVE_STRUCT_TIMESPEC
 /* on MS environments, the inline keyword is available in C++ only */
 #if !defined(__cplusplus)
 #define inline __inline
