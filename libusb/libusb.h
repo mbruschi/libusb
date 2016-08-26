@@ -26,6 +26,7 @@
 
 #ifdef _MSC_VER
 /* on MS environments, the inline keyword is available in C++ only */
+#define HAVE_STRUCT_TIMESPEC
 #if !defined(__cplusplus)
 #define inline __inline
 #endif
